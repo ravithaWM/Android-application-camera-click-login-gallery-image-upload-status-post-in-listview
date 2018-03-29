@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:text="@string/btnText"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="201dp" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:onClick="onClick"
+            android:text="@string/btnCamera"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="283dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

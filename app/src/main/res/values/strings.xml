@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sample App</string>
+    <string name="Submit">Submit</string>
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="btnText">Status Update</string>
+    <string name="btnCamera">Upload Image</string>
+</resources>
